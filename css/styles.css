@@ -202,7 +202,7 @@ letter-spacing: 0.04em;
     display: flex;
 }
 .work-list .item{
-    margin-right: 40px;
+    margin-right: 24px;
 }
 .work-img {
     display: flex;
@@ -338,7 +338,10 @@ gap: 24px;
     background-color: var(--acccent-color);
     align-items: center;
 }
-
+.team-social-link:hover,
+.team-social-link:focus{
+    background-color: var(--hover-text-color);
+}
 
 
 /* customers */
@@ -374,9 +377,11 @@ color: var(--primary-text-color);
     align-items: center;
     width: 100%;
     height: 100%;
-    color: gray;
+    color: rgba(142, 143, 153, 1);
+;
     background-color: var(--hero-text-color);
-    border: 1px solid #8E8F99;
+    border: 1px solid  rgba(142, 143, 153, 1);
+;
     border-radius: 4px;
 }
 .cst-link:hover,
@@ -538,8 +543,8 @@ border-color: none;
 .portfolio-link{
     display: block;
 }
-.portfolio-link :hover,
-.portfolio-link :focus{
+.portfolio-link:hover,
+.portfolio-link:focus{
     display: block;
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
